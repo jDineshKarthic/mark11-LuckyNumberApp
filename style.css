@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
 
 body {
-  background-color: #1F2937;
-  color: #6EE7B7;
-  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(118, 125, 136);
+  color: blanchedalmond;
+ font-family: 'Ubuntu', sans-serif;
 }
 
 #check-number,
@@ -41,7 +42,7 @@ input {
 #output-box {
   width: 100%;
   background-color: white;
-  border-color: #6EE7B7;
+  border-color:blanchedalmond;
   border-radius: 5px;
   border-width: medium;
   font-size: large;
@@ -50,13 +51,14 @@ input {
 #check-number {
   border-radius: 5px;
   background: transparent;
-  color: #6EE7B7;
-  border-color: #6EE7B7;
+  color: blanchedalmond;
+  border-color: blanchedalmond;
   padding: 0.3rem;
 }
 
 #check-number:hover {
-  background: #6EE7B7;
-  border-color: #6EE7B7;
-  color: #1F2937;
+  background: blanchedalmond;
+  border-color: blanchedalmond;
+
+  color: #1F2934;
 }
